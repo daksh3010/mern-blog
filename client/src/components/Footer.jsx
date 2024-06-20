@@ -29,7 +29,7 @@ export default function FooterCom() {
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >
-                                    Creative Blog's
+                                    Creative Blogs
                             </Footer.Link>
                         </Footer.LinkGroup>
                     </div>

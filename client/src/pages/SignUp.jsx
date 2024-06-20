@@ -43,7 +43,7 @@ export default function SignUp() {
         <div className='flex-1'>
         <Link to="/" className='font-bold dark:text-white text-4xl'>
             <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>Creative</span>
-            Blog's
+            Blogs
         </Link>
         <p className='text-sm mt-5'>
         Welcome to our dynamic blog post platform! Here, you can let your innovative ideas shine across a range of exciting topics. Join our community by signing up with your email and password, or effortlessly sign up using Google. Unleash your creativity with us!
