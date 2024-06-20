@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer } from 'flowbite-react';
 import { Link } from 'react-router-dom';
-import { BsFacebook, BsInstagram,BsTwitter,BsGithub,BsLinkedin } from 'react-icons/bs';
+import { BsFacebook, BsInstagram,BsTwitter,BsGithub } from 'react-icons/bs';
 export default function FooterCom() {
   return (
     <Footer container className='border border-t-8 border-teal-500'>
@@ -83,11 +83,10 @@ export default function FooterCom() {
             <div className='w-full sm:flex sm:items-center sm:justify-between'>
                 <Footer.Copyright href='#' by="Creative Blog's" year={new Date().getFullYear()} />
                 <div className='flex gap-6 sm:mt-0 mt-4 sm:justify-center'>
-                    <Footer.Icon href='https://www.facebook.com/daksh.kundu.798/' icon={BsFacebook} />
-                    <Footer.Icon href='https://www.instagram.com/dakshkundu30__' icon={BsInstagram} />
-                    <Footer.Icon href='https://x.com/Daksh301002' icon={BsTwitter} />
-                    <Footer.Icon href='https://www.github.com/daksh3010' icon={BsGithub} />
-                    <Footer.Icon href='https://www.linkedin.com/in/daksh-kundu' icon={BsLinkedin} />
+                    <Footer.Icon href='https://www.facebook.com/' icon={BsFacebook} />
+                    <Footer.Icon href='https://www.instagram.com/' icon={BsInstagram} />
+                    <Footer.Icon href='https://x.com/' icon={BsTwitter} />
+                    <Footer.Icon href='https://www.github.com/' icon={BsGithub} />
                 </div>
             </div>
         </div>
